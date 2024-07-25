@@ -1,0 +1,1080 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(255, 238, 191);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.25rem;
+}
+
+header h1 a {
+    margin-left: 3.75rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    color: #333333;
+    font-size: 1.9rem;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 0.06rem solid black;
+}
+
+.navbar {
+    flex-grow: 1;
+    text-align: center;
+    margin-right: 10.9rem;
+}
+
+.navbar ul {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar ul li {
+    margin-right: 1.8rem;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 0.6rem;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: #555;
+}
+
+#home_h2 h2 {
+    padding-top: 1.25rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 7.5rem;
+    text-align: center;
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#img1 img {
+    width: 100%;
+    max-width: 130rem;
+    height: auto;
+    border-radius: 4.6rem;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.text2 {
+    padding-top: 4rem;
+    font-size: 1.5rem;
+}
+
+.text2 a {
+    text-decoration: underline;
+    color: #333;
+}
+
+.container2 h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5rem;
+}
+
+.container3 {
+    margin-top: 5.6rem;
+    margin-bottom: 4.3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#dogpic img {
+    max-width: 37.5rem;
+    height: auto;
+    border-radius: 0.625rem;
+}
+
+#collar img {
+    max-width: 25rem;
+    height: auto;
+    border-radius: 0.625rem;
+}
+
+#dogpic {
+    margin-left: 18.75rem;
+}
+
+#collar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 18.75rem;
+}
+
+#collar p {
+    text-align: center;
+    margin-top: 0.6rem;
+}
+
+#picshops {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#picshops1 img,
+#picshops2 img,
+#picshops3 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.3rem;
+}
+
+#picshops1 figcaption,
+#picshops2 figcaption,
+#picshops3 figcaption {
+    margin-top: 0.6rem;
+    text-align: center;
+    font-size: 1.9rem;
+}
+
+#picshops1 button,
+#picshops2 button,
+#picshops3 button {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 0.6rem;
+    display: inline-block;
+    padding: 0.6rem 1.25rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+    border: 0.125rem solid #333;
+    border-radius: 0.5rem;
+    background-color: transparent;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+#picshops1 button:hover,
+#picshops2 button:hover,
+#picshops3 button:hover {
+    background-color: #444444;
+    color: rgb(230, 215, 255);
+    border-color: #333;
+}
+
+.container4 {
+    padding-top: 5.6rem;
+    padding-bottom: 3.75rem;
+    background-color: rgb(230, 215, 255);
+    display: flex;
+    justify-content: space-between;
+}
+
+.container4 figure {
+    flex-basis: calc(33.33% - 1.25rem);
+    margin-bottom: 1.25rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.container4 figure img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.3rem;
+    margin-bottom: 0.6rem;
+}
+
+.bottomheading h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5rem;
+    text-align: center;
+    line-height: 1;
+}
+
+span {
+    text-decoration: underline;
+}
+
+.bottomheading h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.25rem;
+    text-align: center;
+    line-height: 0;
+    padding-bottom: 1.9rem;
+}
+
+.container5 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1.8rem;
+    padding-bottom: 1.8rem;
+    margin-left: 1.8rem;
+    margin-right: 1.8rem;
+}
+
+.container5 figure img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 2.25rem;
+    margin-bottom: 0.6rem;
+}
+
+footer h2 {
+    padding-left: 4.4rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.footerhead p {
+    padding-left: 4.4rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.9rem;
+}
+
+.container6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 12.5rem;
+    margin-bottom: 3.75rem;
+}
+
+.footlinks {
+    margin-top: 3.1rem;
+}
+
+.footlinks a {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.9rem;
+    color: #303030;
+}
+
+.footerform p {
+    padding-top: 1.9rem;
+    margin-bottom: 0.6rem;
+    font-size: 0.9rem;
+}
+
+.footerform form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerform input[type="email"] {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    height: 4.375rem;
+    width: 17.5rem;
+    border: 0.0625rem solid #ccc;
+    border-radius: 0.3125rem;
+    font-size: 1rem;
+    margin-right: 1.25rem;
+    padding-left: 0.625rem;
+}
+
+.footerform button[type="submit"] {
+    padding: 1.3rem 1.75rem;
+    font-size: 1.13rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+    border: 0.125rem solid #333;
+    border-radius: 0.5rem;
+    background-color: transparent;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.footerform button[type="submit"]:hover {
+    background-color: #303030;
+    color: rgb(255, 238, 191);
+}
+
+.menu-icon {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+/* About */
+#body_about {
+    background-color: rgb(230, 215, 255);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.25rem;
+}
+
+.container7 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.about_text h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 6.87rem;
+    font-style: normal;
+    text-decoration: none;
+    color: #181818;
+    margin-left: 3.75rem;
+}
+
+.container9 .about_text p {
+    font-size: 1.3rem;
+}
+
+.container8 {
+    border-top: 0.06rem solid black;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2.5rem;
+    padding-bottom: 2.25rem;
+}
+
+.container8 img {
+    width: 100%;
+    max-width: 43.75rem;
+    height: auto;
+    border-radius: 4.7rem;
+    margin-right: 3.75rem;
+    margin-top: 5.9rem;
+}
+
+.container9 {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 6.5rem;
+    padding-top: 1.87rem;
+    margin-bottom: 0;
+}
+
+.about_text h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 5.93rem;
+    font-style: normal;
+    text-decoration: none;
+    color: #181818;
+    margin-left: 3.75rem;
+}
+
+.about_text p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 1.68rem;
+    font-style: normal;
+    text-decoration: none;
+    color: #181818;
+    margin-left: 3.75rem;
+}
+
+#dogimg img {
+    width: 100%;
+    max-width: 25rem;
+    height: auto;
+    border-radius: 0.31rem;
+    margin-right: 3.75rem;
+}
+
+/*CONTACT*/
+#contact_body {
+    background-color: rgb(255, 255, 255);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.25rem;
+}
+
+.contact_text h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 5.6rem;
+    font-style: normal;
+    text-decoration: none;
+    color: #181818;
+    margin: 0;
+    margin-left: 3.75rem;
+    margin-top: 6.25rem;
+}
+
+.contact_text p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 1.06rem;
+    font-style: normal;
+    text-decoration: none;
+    color: #181818;
+    margin: 0;
+    margin-left: 3.75rem;
+}
+
+.contact_text {
+    line-height: 1.2;
+    margin-bottom: 6.25rem;
+}
+
+.container10 {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 3.75rem;
+}
+
+#form1 {
+    padding-top: 5.6rem;
+    padding-bottom: 5.6rem;
+    min-width: 50%;
+    max-width: 55rem;
+    height: auto;
+}
+
+#form1 p {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+#form1 label {
+    display: block;
+    margin-bottom: 0;
+    font-size: 0.875rem;
+    color: #2e2e2e;
+}
+
+#form1 input[type="text"],
+#form1 input[type="email"],
+#form1 textarea,
+#form1 select {
+    width: 100%;
+    padding: 0.6rem;
+    margin-bottom: 1.25rem;
+    border: 1px solid #6b6b6b;
+    font-size: 0.8rem;
+    background-color: #fff;
+    transition: border-color 0.3s ease-in-out;
+}
+
+#form1 input[type="text"]:focus,
+#form1 input[type="email"]:focus,
+#form1 textarea:focus,
+#form1 select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+#form1 textarea {
+    height: 6.25rem;
+    resize: vertical;
+}
+
+#form1 select {
+    width: 62.5rem;
+    height: 2.5rem;
+    cursor: pointer;
+    width: 100%;
+}
+
+#form1 button[type="submit"] {
+    padding: 0.68rem 2.5rem;
+    font-size: 1.12rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+    border: 0.125rem solid #333;
+    border-radius: 0.5rem;
+    background-color: transparent;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+#form1 button[type="submit"]:hover {
+    background-color: #303030;
+    color: rgb(255, 255, 255);
+}
+
+@media (max-width: 600px) {
+    #form1 form {
+        padding: 0.9rem;
+    }
+
+    #form1 form p {
+        font-size: 1rem;
+    }
+
+    #form1 form input[type="submit"] {
+        padding: 0.6rem;
+        font-size: 0.8rem;
+    }
+}
+
+/*SHOP*/
+.container11 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 3.125rem 3.125rem;
+}
+
+figure img {
+    width: 31.25rem;
+    height: auto;
+    object-fit: cover;
+    border-radius: 0.3125rem;
+}
+
+#shop_section2 {
+    padding-top: 4.375rem;
+    padding-bottom: 6.875rem;
+}
+
+#giftcard img {
+    width: 26.25rem;
+    height: auto;
+    object-fit: cover;
+    border-radius: 1.4375rem;
+    box-shadow: 0.0625rem 0.375rem 0.75rem rgba(0, 0, 0, 0.5);
+}
+
+#shop_body p a {
+    text-decoration: none;
+    color: #303030;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+figcaption {
+    margin-top: 0.625rem;
+    text-align: center;
+}
+
+/* GIFTCARD */
+.container12 {
+    display: flex;
+    justify-content: space-between;
+    padding: 5.625rem 5.625rem;
+    padding-bottom: 12.5rem;
+}
+
+.container12 img {
+    width: 40.625rem;
+    height: auto;
+    object-fit: cover;
+    border-radius: 1.4375rem;
+    box-shadow: 0.0625rem 0.375rem 0.75rem rgba(0, 0, 0, 0.5);
+    margin: 3.125rem 3.125rem;
+}
+
+#form-giftcard {
+    padding-right: 5.625rem;
+}
+
+.container12 h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4.6875rem;
+}
+
+.container12 p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.875rem;
+    line-height: 0;
+}
+
+#form-giftcard label {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.0625rem;
+}
+
+select {
+    width: 37.5rem;
+    padding: 1.25rem;
+    margin-bottom: 1.25rem;
+    border: 0.0625rem solid #6b6b6b;
+    font-size: 0.875rem;
+    background-color: transparent;
+    transition: border-color 0.3s ease-in-out;
+}
+
+select option {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    padding: 0.625rem;
+    font-size: 0.75rem;
+}
+
+.container12 button {
+    width: 37.5rem;
+    padding: 1rem;
+    font-size: 1.125rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+    border: 0.125rem solid #333;
+    border-radius: 0.5rem;
+    background-color: transparent;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.container12 button:hover {
+    background-color: #303030;
+    color: rgb(255, 238, 191);
+}
+
+/* FAQS */
+#faqs_body {
+    background-color: rgb(230, 215, 255);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.25rem;
+}
+
+.container13 {
+    display: flex;
+    justify-content: space-between;
+    padding: 3.75rem 3.75rem;
+    padding-right: 5rem;
+}
+
+.container13 h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 5.625rem;
+}
+
+.container13 h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.625rem;
+}
+
+.container13 p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.125rem;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 768px) {
+
+    body,
+    #faqs_body,
+    #shop_body,
+    #home_body,
+    #body_about,
+    #contact_body,
+    #giftcard_body {
+        font-size: 1rem;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header h1 {
+        text-align: center;
+        margin-right: 4rem;
+        padding: 1rem;
+    }
+
+    header h1 a {
+        font-size: 1.6rem;
+    }
+
+    .navbar {
+        margin-left: 13rem;
+    }
+
+
+    #home_h2 h2 {
+        font-size: 1.7rem;
+        padding-top: 1rem;
+        text-align: center;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    #img1 img {
+        max-width: 100%;
+        border-radius: 2rem;
+    }
+
+    .container2 {
+        display: flex;
+        flex-direction: column;
+        padding-left: 3rem;
+        padding-right: 2rem;
+    }
+
+    .text {
+        font-size: 1rem;
+    }
+
+    .text2 {
+        font-size: 1rem;
+        padding-top: 1rem;
+    }
+
+    .container2 h2 {
+        margin-left: 0;
+        font-size: 2rem;
+    }
+
+    .container3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #dogpic,
+    #collar {
+        margin: 2rem 0;
+    }
+
+    #dogpic img,
+    #collar img {
+        max-width: 60%;
+    }
+
+    .container4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container4 figure {
+        flex-basis: 100%;
+        margin-bottom: 1rem;
+        max-width: 60%;
+    }
+
+    .bottomheading h2 {
+        font-size: 1.7rem;
+    }
+
+    .bottomheading h3 {
+        font-size: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .container5 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .container5 figure {
+        flex-basis: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .container6 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 1rem;
+    }
+
+    .footerhead,
+    .footlinks,
+    .footerform {
+        width: 100%;
+        margin-left: 1rem;
+    }
+
+    .footlinks a {
+        display: block;
+        margin-bottom: 0.5rem;
+        margin-left: 4.4rem;
+    }
+
+    .footerform p {
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    .footerform form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footerform input[type="email"] {
+        width: 69%;
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+
+    .footerform button[type="submit"] {
+        width: 72%;
+    }
+
+    #navbar {
+        display: flex;
+    }
+
+    #about_section2 .container9 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about_text h2 {
+        font-size: 2rem;
+    }
+
+    #about_section2 .about_text {
+        order: 2;
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    #about_section2 #dogimg {
+        order: 1;
+        width: 100%;
+    }
+
+    #about_section2 #dogimg img {
+        max-width: 60%;
+        height: auto;
+        border-radius: 1rem;
+    }
+
+    #about_section2 .about_text p {
+        font-size: 0.8rem;
+        margin-right: 2rem;
+    }
+
+    #shop_section .container11 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    #shop_section .container11 figure {
+        margin-bottom: 1rem;
+        text-align: center;
+        width: 80%;
+    }
+
+    #shop_section .container11 img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 1rem;
+    }
+
+    #shop_section2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    #shop_section2 figure {
+        margin-bottom: 1rem;
+        text-align: center;
+        width: 80%;
+    }
+
+    #shop_section2 img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 1rem;
+    }
+
+    #shop_section .container11 figcaption,
+    #shop_section2 figcaption {
+        font-size: 1rem;
+    }
+
+    #shop_section .container11 figcaption p,
+    #shop_section2 figcaption p {
+        margin: 0;
+    }
+
+    #shop_section2 figcaption a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    #shop_section2 {
+        margin-bottom: 4rem;
+    }
+
+    .contact_text h2 {
+        font-size: 3.5rem;
+    }
+
+    .container10,
+    .container13 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #form1 {
+        width: 90%;
+        margin: 0 auto;
+        padding: 1rem;
+    }
+
+    #form1 p {
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+        margin-left: 3rem;
+    }
+
+    #form1 label {
+        display: block;
+        margin-bottom: 0.25rem;
+        font-size: 1rem;
+        margin-left: 3rem;
+    }
+
+    #form1 input[type="text"],
+    #form1 input[type="email"],
+    #form1 textarea {
+        width: 80%;
+        margin-left: 3rem;
+    }
+
+    #form1 select {
+        width: 42%;
+        margin-left: 3rem;
+    }
+
+    #form1 button[type="submit"] {
+        width: 42%;
+        padding: 0.75rem;
+        cursor: pointer;
+        margin-left: 3rem;
+    }
+
+    #card_section .container12 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #card_section figure {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    #card_section figure img {
+        width: 100%;
+        height: auto;
+    }
+
+    #card_section .card_text {
+        width: 100%;
+        max-width: 300px;
+        margin-top: 1rem;
+    }
+
+    #card_section .card_text h2 {
+        font-size: 1.5rem;
+    }
+
+    #card_section .card_text p {
+        font-size: 1rem;
+    }
+
+    #form-giftcard {
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    #form-giftcard label {
+        font-size: 1rem;
+    }
+
+    #form-giftcard select {
+        width: 100%;
+        padding: 0.5rem;
+        margin: 0.5rem 0;
+        font-size: 1rem;
+        box-sizing: border-box;
+    }
+
+    #form-giftcard button[type="submit"] {
+        width: 100%;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Dalbir Singh">
+    <title>Wesley Pets</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="icon" href="images/logo.jpg" type="image/jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100..900&family=Poppins:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1><a href="../index.html" id="heading">Wesley Pets</a></h1>
+            <div class="navbar">
+                <ul class="navbar">
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="card_section">
+            <div class="container12">
+                <figure>
+                    <img src="../images/giftcard.png" alt="giftcard">
+                </figure>
+                <div class="card_text">
+                    <h2>Gift Card</h2>
+                    <p>from $25.00</p>
+                    <form id="form-giftcard">
+                        <label for="dropdown">Value:</label><br>
+                        <select id="dropdown" name="dropdown">
+                            <option value="" selected disabled hidden>Select Value</option>
+                            <option value="option1">$25.00</option>
+                            <option value="option2">$50.00</option>
+                            <option value="option3">$100.00</option>
+                        </select><br>
+                        <button type="submit">Purchase</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container6">
+            <div class="footerhead">
+                <h2>Wesley Pets</h2>
+                <p>Founded in 2023<br>
+                    Wesley Pets Limited</p>
+            </div>
+            <div class="footlinks">
+                <a href="faqs.html">FAQ</a><br>
+                <a href="contact.html">Contact</a><br>
+                <a href="giftcard.html">Gift Card</a><br>
+            </div>
+            <div class="footerform">
+                <p>Get updates about new products and discounts.</p>
+                <form id="signup-form">
+                    <input type="email" id="email" name="email" placeholder="Email address" required>
+                    <button type="submit" id="signup-button">Sign Up</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
