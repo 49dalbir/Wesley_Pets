@@ -428,7 +428,7 @@ footer h2 {
 
 /*CONTACT*/
 #contact_body {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(230, 215, 255);
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -469,9 +469,14 @@ footer h2 {
     padding-right: 3.75rem;
 }
 
+.enlarged {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
 #form1 {
     padding-top: 5.6rem;
-    padding-bottom: 5.6rem;
+    padding-bottom: 10.5rem;
     min-width: 50%;
     max-width: 55rem;
     height: auto;
@@ -499,7 +504,7 @@ footer h2 {
     margin-bottom: 1.25rem;
     border: 1px solid #6b6b6b;
     font-size: 0.8rem;
-    background-color: #fff;
+    background-color: rgb(230, 215, 255);
     transition: border-color 0.3s ease-in-out;
 }
 
@@ -541,7 +546,7 @@ footer h2 {
 
 #form1 button[type="submit"]:hover {
     background-color: #303030;
-    color: rgb(255, 255, 255);
+    color: rgb(230, 215, 255);
 }
 
 @media (max-width: 600px) {
@@ -571,7 +576,7 @@ figure img {
     width: 31.25rem;
     height: auto;
     object-fit: cover;
-    border-radius: 0.3125rem;
+    border-radius: 0.9rem;
 }
 
 #shop_section2 {
